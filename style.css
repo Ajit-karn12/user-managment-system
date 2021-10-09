@@ -1,0 +1,50 @@
+.container {
+    padding: 100px;
+}
+
+.action__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+.action__buttons button {
+    background: none;
+    border: none;
+    margin-left: 8px;
+}
+.action__buttons .delete__button {
+    color: rgb(255, 0, 34);
+}
+
+.users {
+    margin-bottom: 10px;
+}
+
+.user__info {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.user__info .user__icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user__info .user__name {
+    margin-left: 12px;
+}
+
+.user__form {
+    margin-top: 80px;
+}
+
+.form__container {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #232323;
+}
+.form__container .form-group {
+    margin-bottom: 10px;
+}
